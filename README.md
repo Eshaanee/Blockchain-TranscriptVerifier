@@ -1,27 +1,5 @@
-# TranscriptVerifier
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Blockchain Transcript Verifier is a project built to verify transcripts of users using Blockchain Technology.There is no need of a third party to verify transcripts of students and using Blockchain Technology the entire process becomes more secure.<br />
+The backend is bulit using Solidity.The code for the same can be found in the file named RecordKeeper.sol<br />
+The front end is built using Angular.js<br />
+Web3.js is used for integration of front end and backend.<br />
+The app can be built using the command ng serve.
