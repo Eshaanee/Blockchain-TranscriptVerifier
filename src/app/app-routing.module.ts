@@ -1,10 +1,21 @@
+import{ExtraOptions,RouterModule, Routes} from '@angular/router' ;
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {CommonModule } from '@angular/common';
 
-const routes: Routes = [];
+//application level component
+import {AppComponent} from './app.component';
+const routes: Routes = [
+  {path:'record',component:AppComponent},
+  {path:'', redirectTo:'record', pathMatch:'full'},
+  {path:'**', redirectTo:'record'}
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    CommonModule,
+    RouterModule.forRoot(routes)
+  ],
+  declarations:[]
+  //exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,0 +1,83 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_rollNumber",
+				"type": "string"
+			},
+			{
+				"name": "_firstName",
+				"type": "string"
+			},
+			{
+				"name": "_lastName",
+				"type": "string"
+			},
+			{
+				"name": "_passingYear",
+				"type": "uint256"
+			},
+			{
+				"name": "_percentage",
+				"type": "uint256"
+			}
+		],
+		"name": "addTranscript",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_rollNumber",
+				"type": "string"
+			},
+			{
+				"name": "_firstName",
+				"type": "string"
+			},
+			{
+				"name": "_lastName",
+				"type": "string"
+			},
+			{
+				"name": "_passingYear",
+				"type": "uint256"
+			},
+			{
+				"name": "_percentage",
+				"type": "uint256"
+			}
+		],
+		"name": "verifyTranscript",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
